@@ -1,0 +1,26 @@
+body{
+  overflow: hidden;
+}
+
+.container{
+  padding-top: 5%;
+}
+
+.brand-logo{
+  padding-left: 3% !important;
+  font-weight: 300;
+}
+
+.colomn-titles{
+  font-family: 400 !important;
+}
+
+.card-content{
+  padding-top: 14px;
+  overflow: auto;
+}
+
+.stories-col {
+  margin-top: 5%;
+  height: 72%;
+}

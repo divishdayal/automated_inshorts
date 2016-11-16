@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Automated Inshorts</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/materialize.min.css" />
+	<link rel="stylesheet" href="./styles/styles.css">
+	<link rel='stylesheet' href='./styles/perfect-scrollbar.min.css' />
+    <script src="./scripts/jquery-1.10.2.min.js"></script>
+    <script src='./scripts/perfect-scrollbar.min.js'></script>
+</head>
+<body>
+	<nav>
+		<div class="nav-wrapper grey lighten-5 z-depth-2">
+			<a href="#!" class="brand-logo  grey-text text-darken-2">Automated Inshorts</a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="#" onclick="getData"><i class="material-icons grey-text text-darken-2">refresh</i></a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+      		<div class="col s10">
+      			<h5 class="center-align colomn-titles grey-text">Stories</h5>
+      			<div class="stories-col" id="stories"></div>
+      		</div>
+		</div>
+	</div>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

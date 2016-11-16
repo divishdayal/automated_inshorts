@@ -1,0 +1,18 @@
+{
+  "name": "automated-inshorts-fetch",
+  "version": "1.0.0",
+  "description": "Fetch module for automated inshorts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Amey Agrawal",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.6.6",
+    "parse-rss": "^1.0.3",
+    "scraperjs": "^1.2.0",
+    "twitter": "^1.4.0"
+  }
+}
